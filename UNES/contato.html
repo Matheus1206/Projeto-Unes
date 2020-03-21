@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UNES - Quem Somos</title>
+		<script>
+			function funcaoEnviar(){
+			alert("Eviado com sucesso!");
+			}
+		</script>
+		<meta charset="utf-8">
+	</head>
+	<body background="imagens/fundo2.png">
+
+		<table border="0" width="900" align="center">
+			<tr>
+				<td height="89"><img src="imagens/logo.png"></td>
+				<td align="right">
+					<a href="index.html">Home</a> |
+					<a href="quem-somos.html">Quem somos</a> |
+					<a href="contato.html">Contato</a>
+					 
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<h2>Entre em contato</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipiscing elit.
+					</p>
+					<hr>
+					<form>
+						Email:<br>
+						<input type="text" name="email"><br>
+						<br>
+						Departamento:<br>
+						<input type="radio" id="ensino" name="departamento" value="ensino">Ensino<br>
+						<input type="radio" id="secretaria" name="departamento" value="secretaria">Secretária<br>
+						<input type="radio" id="direcao" name="departamento" value="direcao">Direção<br>
+						<br>
+						Assunto:<br>
+						<select id="assunto" name="assunto">
+							<option value="duvidas">Dúvidas</option>
+							<option value="sugestao">Sugestão</option>
+							<option value="elogios">Elogios</option>
+							<option value="outros">Outros</option>		
+						</select>
+						<br>
+						<br>
+						Descrição:<br>
+						<textarea rows= "10" id="descricao"> </textarea><br>
+						<input id="enviar"type="submit" onclick="funcaoEnviar()" value="Enviar">
+					</form>	
+				</td>
+			</tr>
+			<tr >
+				<td colspan="2" align="center">
+					<strong>Todos os direitos reservados</strong>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
