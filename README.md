@@ -18,3 +18,5 @@ Foram utilizadas <strong>linguagens de programação</strong>:<br>
     <li><em>Page Object</em></li>
     <li><em>A criação de uma DSL</em></li>
  </ul>   
+ <h2>Explicação</h2>
+ <p>No projeto é possível identificar um arquivo em .xlsx que tem por objetivo definir um plano de teste que possibilita uma abordagem manual ou automatizada, com exemplificação de <em>cenários</em> e <em>casos de testes</em>.</p>
