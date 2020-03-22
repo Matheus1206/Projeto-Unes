@@ -10,10 +10,11 @@ Foram utilizadas linguagens de programação:<br>
   <br>
 <p>Foram adicionados alguns frameworks e padrões que axiliaram no desenvolvimento dos teste: <br>
   <ul>
-    Framework:
+    <strong>Framework:</strong>
     <li>Selenium</li>
     <li>EasyTest(DTT)</li>
-    Padrão de projeto:
+    <br>
+    <strong>Padrão de projeto:</strong>
     <li>Page Object</li>
     <li>A criação de uma DSL</li>
  </ul>   
